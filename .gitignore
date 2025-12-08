@@ -1,0 +1,70 @@
+# Entornos virtuales
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / empaquetado
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
+logs/
+*.log
+
+# Configuración de tests
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Cachés de herramientas
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Configuración de IDEs/editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# LangChain / LLMs (archivos locales comunes)
+.langchain/
+langchain.db
+*.sqlite3
+*.db
+.chroma/
+.vectorstore/
+.cache/
