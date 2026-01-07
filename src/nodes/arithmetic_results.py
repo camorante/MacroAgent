@@ -5,7 +5,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from .. import get_openai_llm, get_gemini_llm
 from ..states import MathState
 
-llm = get_gemini_llm()
+llm = get_openai_llm()
 
 result_node_template = """
     You are an agent specialized in displaying the results of a mathematical operation.

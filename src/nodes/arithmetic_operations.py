@@ -8,7 +8,7 @@ from ..states import MathState
 from ..tools import arithmetic_tools
 from ..utils import build_safe_window
 
-llm = get_gemini_llm()
+llm = get_openai_llm()
 llm_tools = llm.bind_tools(arithmetic_tools(), tool_choice="auto")
 
 def aritm_operations_tools(state: MathState) -> MathState:

@@ -68,3 +68,5 @@ langchain.db
 .chroma/
 .vectorstore/
 .cache/
+
+**/__pycache__/

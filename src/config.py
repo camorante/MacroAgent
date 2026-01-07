@@ -25,7 +25,7 @@ def get_openai_llm(model="gpt-5-nano", max_tokens = None) -> ChatOpenAI:
     return ChatOpenAI(model=model, max_tokens=max_tokens)
 
 def get_gemini_llm(
-    model: str = "gemini-2.5-flash-lite",
+    model: str = "gemini-2.0-flash-lite",
     max_output_tokens: int | None = None,
     temperature: float = 0.7,
 ) -> ChatGoogleGenerativeAI:
